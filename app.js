@@ -18,7 +18,7 @@ var app = express();
 
 app.use(cors({
   // 모두 허용
-  origin: ['*'],
+  origin: ['http://localhost:3000'],
 }))
 
 
